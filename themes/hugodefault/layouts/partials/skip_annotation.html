@@ -1,0 +1,1 @@
+{{ .RawContent | replaceRE `(?ms:^---\r?\nAnnotations:.*$)` "" | markdownify | safeHTML }}
