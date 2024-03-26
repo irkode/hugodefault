@@ -1,2 +1,6 @@
+# hugo stuff
 .hugo_build.lock
 public
+
+# prettier
+node_modules
